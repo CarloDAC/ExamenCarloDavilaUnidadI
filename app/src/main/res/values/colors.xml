@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rojo">#BF1111</color> <!-- RGB: 191, 17, 17 -->
+    <color name="azul">#2941DE</color> <!-- RGB: 41, 65, 222 -->
+    <color name="verde">#1ADE27</color> <!-- RGB: 26, 222, 39 -->
+    <color name="amarillo">#FDFD19</color> <!-- RGB: 253, 253, 25 -->
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simón dice"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+    <TextView
+        android:id="@+id/Highscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Highscore"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/Crojo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/rojo"/>
+    <LinearLayout
+        android:id="@+id/Cverde"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/verde"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/Cazul"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/azul"/>
+        <LinearLayout
+            android:id="@+id/Camarillo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/amarillo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:text="Iniciar"
+            android:textSize="30dp"
+            android:layout_marginLeft="40dp"/>
+        <Button
+            android:id="@+id/btnRendirse"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Rendirse"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+</LinearLayout>
